@@ -1,0 +1,85 @@
+.layoutContainer {
+  width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+ 
+.navigation {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 40px; 
+  background-color: #ffffff;
+  
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+  flex-shrink: 0; 
+}
+
+
+.logo {
+  font-size: 1.8rem; 
+  font-weight: 700; 
+  color: #007bff; 
+  text-decoration: none;
+}
+
+
+.navLinksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; 
+}
+
+.navLink {
+  padding: 10px 15px; 
+  font-size: 16px;
+  font-weight: 500; 
+  text-decoration: none;
+  color: #333;
+
+  border-radius: 5px;
+  margin: 5px;
+  
+  transition: background-color 0.2s ease-in-out;
+}
+ 
+.navLink:hover {
+ 
+  background-color: #f4f4f4;
+}
+ 
+.activeLink {
+ 
+  background-color: #e0eaff; 
+  color: #0056b3;
+  font-weight: 600;
+  
+}
+ 
+.mainContent {
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContentFullWidth {
+  flex-grow: 1; 
+  display: flex; 
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent; 
+  box-shadow: none;
+}

@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 40px;
+    min-height: 300px; 
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 500px;
+    margin-bottom: 30px; 
+  }
+  
+  .reportButton {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .reportButton:hover {
+    background-color: #0056b3;
+  }
